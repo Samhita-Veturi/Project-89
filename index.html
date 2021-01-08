@@ -16,13 +16,15 @@
         <title>Project 89</title>
     </head>
     <body>
-        <h1>Math Quiz</h1>
-        <div class="line"></div>
-        
+        <center>
+
+       <span id="Background"></span> 
+       <h1 id="Heading">Math Quiz</h1>
+       <div class="line"></div>
 <div id="Player1_Login" class="col-lg-4 col-md-4 col-sm-4 col-xs-11 Login_P1">
     <h2>Player 1 login for the game</h2>
     <label>User Name: </label>
-    <input type="text" class="form-control" placeholder="Get in here, Player 1!">
+    <input type="text" class="form-control" placeholder="Get in here, Player 1!" id="Player_1">
 </div>
 <br>
 <br>
@@ -35,10 +37,14 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+
 <div id="Player2_Login" class="col-lg-4 col-md-4 col-sm-4 col-xs-11 Login_P2">
     <h2>Player 2 login for the game</h2>
     <label>User Name: </label>
-    <input type="text" class="form-control" placeholder="Get in here, Player 2!">
+    <input type="text" class="form-control" placeholder="Get in here, Player 2!" id="Player_2">
 </div>
 <br>
 <br>
@@ -51,18 +57,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<button class="btn btn-primary" id="LogInB">Log In!</button>
+<button class="btn btn-primary" id="LogInB" onclick="AddUser()">Log In!</button>
+</center>
     </body>
 </html>
